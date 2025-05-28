@@ -22,7 +22,7 @@
 //comment this out when using floating point variables ^_^
 #pragma GCC optimize("Ofast,no-stack-protector,fast-math, unroll-loops",3)
 //comment this out when doing interactive problems ^-^
-#define endl '\n';
+#define endl '\n'
 
 using namespace std;
 using ll = long long;
