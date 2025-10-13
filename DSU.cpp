@@ -8,7 +8,9 @@
 #else     
 #define DEBUG(x)        
 #endif             
-#define forn(n) for(int i = 0; i < (n); i++)                     
+#define forn(n) for(int i = 0; i < (n); i++)    
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
+#define sz(x) (int)(x).size()                 
 #define all(x) x.begin(), x.end()
 #define rev(x) x.rbegin(), x.rend()
 #define sp <<" "<<
@@ -22,7 +24,7 @@
 //comment this out when using floating point variables ^_^
 #pragma GCC optimize("Ofast,no-stack-protector,fast-math, unroll-loops",3)
 //comment this out when doing interactive problems ^-^
-#define endl '\n';
+#define endl '\n'
 
 using namespace std;
 using ll = long long;
