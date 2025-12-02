@@ -1,18 +1,22 @@
 #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 #define pb push_back 
 #define mp make_pair 
 #define st first
 #define nd second
+#define len length()
 #ifndef ONLINE_JUDGE  
 #define DEBUG(x) cout << #x << " = " << (x) << endl   
 #else     
 #define DEBUG(x)        
 #endif             
-#define forn(n) for(int i = 0; i < (n); i++)    
-#define rep(i, a, b) for(int i = a; i < (b); ++i)
-#define sz(x) (int)(x).size()                 
+#define forn(n) for(int i = 0; i < (n); i++)  
+#define rep(i, a, b) for(ll i = a; i < (b); ++i)
+#define sz(x) (int)(x).size()                   
 #define all(x) x.begin(), x.end()
 #define rev(x) x.rbegin(), x.rend()
+#define in cin >>
+#define out cout <<
 #define sp <<" "<<
 #define sortf(v) sort(all(v))
 #define sortb(v) sort(rev(v))
